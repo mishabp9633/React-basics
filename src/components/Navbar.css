@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+.navbar{
+    margin: 40px 100px 150px 100px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logolist{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.logo img{
+    margin-right: 20px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    margin-right: 50px;
+    list-style: none;   
+}
+
+.loginsection{
+    display: flex;
+    gap: 30px;
+}
+
+.loginbtn{
+    border: none;
+    background: none;
+    font-size: 15px;
+}
+
+.startbtn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+}
+
+
