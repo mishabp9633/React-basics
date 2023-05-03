@@ -52,6 +52,11 @@ ul li{
     background: none;
     font-size: 15px;
 }
+.loginbtn a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .startbtn{
     background-color: black;

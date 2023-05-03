@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 import logo from '../../src/assets/Vector.png'
 
 const Navbar = () => {
@@ -20,7 +21,9 @@ const Navbar = () => {
        </ul>
        </div>
        <div className='loginsection'>
-       <button className='loginbtn'>Login</button>
+        
+       <button className='loginbtn'><Link to="/loginPage">Login</Link></button>
+       
        <button className='startbtn'>Get started free</button>
        </div>
    </div>
