@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const Dashboard = () => {
-//   return (
-//     <div>
-//       Hello Mishab
-//     </div>
-//   )
-// }
-
-// export default Dashboard
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { AiFillHome, AiFillSetting } from "react-icons/ai";
