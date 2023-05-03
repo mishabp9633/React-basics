@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { AiFillHome, AiFillSetting } from "react-icons/ai";
-import "./Dashboard.css";
+import React from "react"
+import { Link } from "react-router-dom"
+import { AiFillHome, AiFillSetting } from "react-icons/ai"
+import "./Dashboard.css"
 
 const Dashboard = () => {
   return (
